@@ -3,7 +3,7 @@ This repo is implementation for [PointNet++](https://arxiv.org/abs/1706.02413) p
  - Clean implementation of [PointNet++](https://arxiv.org/abs/1706.02413) part segmentation model
  - Implementation of [PointNet](https://arxiv.org/abs/1612.00593) part segmentation model
  - Training of [ShapeNet](http://web.stanford.edu/~ericyi/project_page/part_annotation/index.html) dataset
- - Visualization of segmentation result
+ - Visualization of segmentation result based on [Open3D](https://github.com/intel-isl/Open3D)
  - No need to directly compile anything
 
 
