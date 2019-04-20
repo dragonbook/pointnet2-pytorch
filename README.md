@@ -1,6 +1,7 @@
 # Pointnet2 Part segmentation
 This repo is implementation for [PointNet++](https://arxiv.org/abs/1706.02413) part segmentation in PyTorch. It is based on [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric) and offers:
- - Clean implementation of [PointNet++](https://arxiv.org/abs/1706.02413) part segmentation model
+ - Clean and fast implementation of [PointNet++](https://arxiv.org/abs/1706.02413) part segmentation model
+   - ~120ms inference forward time on GTX1070 with batch_size=8
  - Implementation of [PointNet](https://arxiv.org/abs/1612.00593) part segmentation model
  - Training of [ShapeNet](http://web.stanford.edu/~ericyi/project_page/part_annotation/index.html) dataset
  - Visualization of segmentation result based on [Open3D](https://github.com/intel-isl/Open3D)
@@ -59,4 +60,4 @@ Sample segmentation result:
 # Links
 -  [pointnet.pytorch](https://github.com/fxia22/pointnet.pytorch) by fxia22. This repo's PointNet and tranining code are heavily borrowed from fxia22's repo.
 - Official [PointNet](https://github.com/charlesq34/pointnet) and [PointNet++](https://github.com/charlesq34/pointnet2) tensorflow implementations
-- [PointNet++ classification example](https://github.com/rusty1s/pytorch_geometric/blob/master/examples/pointnet%2B%2B.py) of pytorch_geometry library
+- [PointNet++ classification example](https://github.com/rusty1s/pytorch_geometric/blob/master/examples/pointnet%2B%2B.py) of pytorch_geometric library

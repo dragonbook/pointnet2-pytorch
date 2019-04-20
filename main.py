@@ -18,6 +18,8 @@ from model.pointnet_part_seg import PointNetPartSegmentNet
 from model.pointnet2_part_seg import PointNet2PartSegmentNet
 import torch_geometric.transforms as GT
 
+import time
+
 
 ## Argument parser
 parser = argparse.ArgumentParser()
@@ -173,7 +175,9 @@ with torch.no_grad():
         points = points.transpose(1, 2).contiguous()
         points = points.to(device, dtype)
 
+        # start_t = time.time()
         pred = net(points) # (batch_size, n, num_classes)
+        # print('batch inference forward time used: {} ms'.format(time.time() - start_t))
 
         pred_label = pred.max(2)[1]
         pred_label = pred_label.cpu().numpy()
