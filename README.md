@@ -46,7 +46,7 @@ Segmentation on  [A subset of shapenet](http://web.stanford.edu/~ericyi/project_
 | PointNet Offical     | 83.4| 78.7| 82.5| 74.9 |89.6| 73.0| 91.5| 85.9| 80.8| 95.3| 65.2| 93.0| 81.2| 57.9| 72.8| 80.6| 
 | PointNet++ Offical   | 82.4| 79.0| 87.7| 77.3 |90.8| 71.8| 91.0| 85.9| 83.7| 95.3| 71.6| 94.1| 81.3| 58.7| 76.4| 82.6| 
 | PointNet this repo   | 82.5| 79.6| 79.4|  |  |  |  |  |  |  |  |  |  |  |  |  |
-| PointNet++ this repo | 84.8| 80.9| 86.3|  |  |  |  |  |  |  |  |  |  |  |  |  |
+| PointNet++ this repo | 84.8| 80.9| 86.3| 75.5| 90.6| 71.2| 90.5| 87.4| 83.0| 96.7| 58.0| 96.1| 82.5| 55.6| 72.2| 84.6|
 
 Note that,
 - This implementation trains each class separately
