@@ -162,6 +162,9 @@ for epoch in range(opt.nepoch):
                 total = pred_label.shape[0]
                 print('[{}: {}/{}] {} loss: {} accuracy: {}'.format(epoch, batch_idx, num_batch, blue('test'), loss.item(), float(correct.item())/total))
 
+            # Back to training mode
+            net.train()
+                
     torch.save(net.state_dict(), '{}/seg_model_{}_{}.pth'.format(opt.outf, opt.category, epoch))
 
 
