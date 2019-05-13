@@ -3,6 +3,7 @@ Modified from https://github.com/fxia22/pointnet.pytorch/blob/master/utils/train
 '''
 
 import os
+import random
 import numpy as np
 import argparse
 import torch
@@ -42,6 +43,7 @@ print(opt)
 # TODO: Still cannot get determinstic result
 opt.manual_seed = 123
 print('Random seed: ', opt.manual_seed)
+random.seed(opt.manual_seed)
 np.random.seed(opt.manual_seed)
 torch.manual_seed(opt.manual_seed)
 torch.cuda.manual_seed(opt.manual_seed)
