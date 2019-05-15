@@ -15,7 +15,6 @@ import torch.backends.cudnn as cudnn
 
 
 from dataset.shapenet import ShapeNetPartSegDataset
-from model.pointnet_part_seg import PointNetPartSegmentNet
 from model.pointnet2_part_seg import PointNet2PartSegmentNet
 import torch_geometric.transforms as GT
 
@@ -90,7 +89,6 @@ dtype = torch.float
 print('cudnn.enabled: ', torch.backends.cudnn.enabled)
 
 
-# net = PointNetPartSegmentNet(num_classes)
 net = PointNet2PartSegmentNet(num_classes)
 
 if opt.model != '':

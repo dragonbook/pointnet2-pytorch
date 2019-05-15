@@ -44,19 +44,10 @@ python vis/show_seg_res.py
 ```
 
 # Sample segmentation result
-<!-- | PointNet Offical     | 83.4| 78.7| 82.5| 74.9 |89.6| 73.0| 91.5| 85.9| 80.8| 95.3| 65.2| 93.0| 81.2| 57.9| 72.8| 80.6|  -->
-<!-- | PointNet this repo   | 82.5| 79.6| 79.4| 71.6| 89.9| 72.5| 90.0| 86.1| 80.3| 96.3| 57.4| 91.2| 83.0| 60.3| 65.4| 86.0| -->
-<!-- | PointNet++ this repo(w/o bn) | 84.8| 80.9| 86.3| 75.5| 90.6| 71.2| 90.5| 87.4| 83.0| 96.7| 58.0| 96.1| 82.5| 55.6| 72.2| 84.6| -->
-
-<!-- Note that, -->
-<!-- - This implementation trains each class separately -->
-<!-- - There are some minimal implemention differences compared with offical repo -->
-<!-- - Some default used training configurations: batch_size=8, nepochs=25, optimizer=adam -->
-
 ![segmentation_result](figs/segmentation_result.png)
 
 
 # Links
--  [pointnet.pytorch](https://github.com/fxia22/pointnet.pytorch) by fxia22. This repo's PointNet and tranining code are heavily borrowed from fxia22's repo.
+-  [pointnet.pytorch](https://github.com/fxia22/pointnet.pytorch) by fxia22. This repo's tranining code are heavily borrowed from fxia22's repo.
 - Official [PointNet](https://github.com/charlesq34/pointnet) and [PointNet++](https://github.com/charlesq34/pointnet2) tensorflow implementations
 - [PointNet++ classification example](https://github.com/rusty1s/pytorch_geometric/blob/master/examples/pointnet%2B%2B.py) of pytorch_geometric library
