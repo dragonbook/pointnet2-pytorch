@@ -11,7 +11,7 @@ Segmentation on  [A subset of shapenet](http://web.stanford.edu/~ericyi/project_
 | PointCNN     | 84.6| 84.11| **86.47**| 86.04| **80.83**| 90.62| **79.70**| 92.32| 88.44| 85.31| 96.11| **77.20**| 95.28| 84.21| 64.23| **80.00**| 82.99| 
 | PointNet++(this repo) | **84.68**| **85.42**| 85.92| **88.39**| 79.73| **91.86**| 75.37| **92.95**| **88.56**| **85.72**| **97.00**| 72.94| **96.88**| **84.52**| **64.38**| 79.39| **85.91**|
 
-mcIOU: mean pre-class pIoU
+mcIOU: mean per-class pIoU
 
 # Requirements
 - PyTorch
