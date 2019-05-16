@@ -1,7 +1,7 @@
 # Pointnet++ Part segmentation
 This repo is implementation for [PointNet++](https://arxiv.org/abs/1706.02413) part segmentation model based on [PyTorch](https://pytorch.org) and [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric). It can achieve comparable or better performance even compared with [PointCNN](https://arxiv.org/abs/1801.07791) on Shapenet dataset.
 
-**The model has been mergered into [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric) library as a point cloud segmentation [example](https://github.com/rusty1s/pytorch_geometric/tree/master/examples/pointnet++_part_seg), you can try it.**
+**The model has been mergered into [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric) as a point cloud segmentation [example](https://github.com/rusty1s/pytorch_geometric/tree/master/examples/pointnet++_part_seg), you can try it.**
 
 # Performance
 Segmentation on  [A subset of shapenet](http://web.stanford.edu/~ericyi/project_page/part_annotation/index.html).
