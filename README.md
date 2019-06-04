@@ -14,7 +14,7 @@ Segmentation on  [A subset of shapenet](http://web.stanford.edu/~ericyi/project_
 
 mcIOU: mean per-class pIoU
 
-All experiments are trained with default configration: npoints=2500, batchsize=8, num_epoches=25. The recorded accuracy above is just the test accuracy of the final epoch model.
+All experiments are trained with same default configration: npoints=2500, batchsize=8, num_epoches=25. The recorded accuracy above is the test accuracy of the final epoch.
 # Requirements
 - [PyTorch](https://pytorch.org)
 - [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric)
