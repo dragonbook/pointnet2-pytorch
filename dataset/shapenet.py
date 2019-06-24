@@ -21,12 +21,11 @@ class ShapeNetPartSegDataset(Dataset):
     def __getitem__(self, index):
         data = self.dataset[index]
         points, labels = data.pos, data.y
+        assert labels.min() >= 0
 
         # Resample to fixed number of points
         choice = np.random.choice(points.shape[0], self.npoints, replace=True)
         points, labels = points[choice, :], labels[choice]
-
-        labels -= 1  # Map label from [1, C] to [0, C-1]
 
         sample = {
             'points': points,  # torch.Tensor (n, 3)
