@@ -27,7 +27,7 @@ parser.add_argument('--dataset', type=str, default='shapenet', help='dataset pat
 parser.add_argument('--category', type=str, default='Airplane', help='select category')
 parser.add_argument('--npoints', type=int, default=2500, help='resample points number')
 parser.add_argument('--model', type=str, default='', help='model path')
-parser.add_argument('--nepoch', type=int, default=25, help='number of epochs to train for')
+parser.add_argument('--nepoch', type=int, default=30, help='number of epochs to train for')
 parser.add_argument('--outf', type=str, default='checkpoint', help='output folder')
 parser.add_argument('--batch_size', type=int, default=8, help='input batch size')
 parser.add_argument('--test_per_batches', type=int, default=10, help='run a test batch per training batches number')
