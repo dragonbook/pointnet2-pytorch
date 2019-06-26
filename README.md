@@ -9,7 +9,7 @@ Segmentation on  [A subset of shapenet](http://web.stanford.edu/~ericyi/project_
 | Method | mcIoU|Airplane|Bag|Cap|Car|Chair|Earphone|Guitar|Knife|Lamp|Laptop|Motorbike|Mug|Pistol|Rocket|Skateboard|Table
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 | PointNet++   | 81.9| 82.4| 79.0| 87.7| 77.3 |90.8| 71.8| 91.0| 85.9| 83.7| 95.3| 71.6| 94.1| 81.3| 58.7| 76.4| 82.6| 
-| PointNet++(this repo) || 82.5| 76.1| 87.8| | | 73.7| | | | 95.3| 70.5
+| PointNet++(this repo) || 82.5| 76.1| 87.8| 77.5| 89.89| 73.7| | | | 95.3| 70.5
 
 
 Note,
