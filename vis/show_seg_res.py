@@ -1,4 +1,4 @@
-# Warning: import open3d may lead crash, try to to import open3d first here
+# Warning: import open3d may lead crash, try to import open3d first here
 from view import view_points_labels
 
 import sys
@@ -6,7 +6,6 @@ import os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../')  # add project root directory
 
 from dataset.shapenet import ShapeNetPartSegDataset
-from model.pointnet_part_seg import PointNetPartSegmentNet
 from model.pointnet2_part_seg import PointNet2PartSegmentNet
 import torch_geometric.transforms as GT
 import torch
