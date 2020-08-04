@@ -19,23 +19,13 @@ Note,
 
 
 # Requirements
-- [PyTorch](https://pytorch.org)
-- [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric)
-- [Open3D](https://github.com/intel-isl/Open3D)(optional, for visualization of segmentation result)
-
-## Quickly install pytorch_geometric and Open3D with Anaconda
-```
-$ pip install --verbose --no-cache-dir torch-scatter
-$ pip install --verbose --no-cache-dir torch-sparse
-$ pip install --verbose --no-cache-dir torch-cluster
-$ pip install --verbose --no-cache-dir torch-spline-conv (optional)
-$ pip install torch-geometric
-```
-
-```
-# optional
-conda install -c open3d-admin open3d
-```
+- python 3.6.8
+- [PyTorch 1.1.0](https://pytorch.org)
+- [pytorch_geometric 1.3.0](https://github.com/rusty1s/pytorch_geometric)
+  - torch-cluster 1.4.2
+  - torch-scatter 1.2.0
+  - torch-sparse 0.4.0
+- [Open3D 0.6.0](https://github.com/intel-isl/Open3D)(optional, for visualization of segmentation result)
 
 # Usage
 Training
